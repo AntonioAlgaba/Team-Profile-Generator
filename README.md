@@ -7,7 +7,6 @@ Worrking Node.js command-line application that take in information about employe
 - [Installation](#installation)
 - [Usage](#usage)
 - [Constributing](#contributing)
-- [Test](#test)
 - [Questions](#questions)
 
   
@@ -18,10 +17,6 @@ Worrking Node.js command-line application that take in information about employe
 When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions. First, you have to write information about the manager and then you can choose more emplyees as ingeneer or intern, or just stop building the team.
 
 The application will start by running `node index.js`
-
-![WalkthroughVideo](./assets/Walkthrough Video.webm)
-
-
 
 You can watch the video here:
 
@@ -35,8 +30,6 @@ Appliction screenshot:
 ## Constributing
   Antonio Algaba Osuna
 
-## Test 
-  Not aplicable.
 
 ## Questions
 
