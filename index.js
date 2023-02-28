@@ -14,6 +14,8 @@ const generateTeam = require("./src/page-template.js");
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 const teamArray = [];
+
+// manager function
 const addManager = () => {
     return inquirer.prompt ([
         {
@@ -24,18 +26,18 @@ const addManager = () => {
         {
             type: 'input',
             name: 'id',
-            message: "Please enter the manager's ID.",
+            message: "Please enter the manager's ID:",
         },
         {
             type: 'input',
             name: 'email',
-            message: "Please enter the manager's email.",
+            message: "Please enter the manager's email:",
             
         },
         {
             type: 'input',
             name: 'officeNumber',
-            message: "Please enter the manager's office number",
+            message: "Please enter the manager's office number:",
            
         }
     ])
@@ -54,7 +56,7 @@ const addEmployee = () => {
         {
             type: 'list',
             name: 'role',
-            message: "Please choose your employee's role",
+            message: "Please choose your employee's role:",
             choices: ['Engineer', 'Intern']
         },
         {
@@ -65,23 +67,23 @@ const addEmployee = () => {
         {
             type: 'input',
             name: 'id',
-            message: "Please enter the employee's ID.",
+            message: "Please enter the employee's ID:",
         },
         {
             type: 'input',
             name: 'email',
-            message: "Please enter the employee's email.",
+            message: "Please enter the employee's email:",
         },
         {
             type: 'input',
             name: 'github',
-            message: "Please enter the employee's github username.",
+            message: "Please enter the employee's github username:",
             when: (input) => input.role === "Engineer",
         },
         {
             type: 'input',
             name: 'school',
-            message: "Please enter the intern's school",
+            message: "Please enter the intern's school:",
             when: (input) => input.role === "Intern",
             
         },
@@ -93,6 +95,7 @@ const addEmployee = () => {
         }
     ])
     .then(employeeData => {
+        
         // data for employee types 
 
         let { name, id, email, role, github, school, confirmAddEmployee } = employeeData; 
@@ -135,7 +138,7 @@ const createHTMLFile = () => {
  });
 }
 
-
+// calling all function in order
 addManager()
   .then(addEmployee)
   .then(teamArray => {
