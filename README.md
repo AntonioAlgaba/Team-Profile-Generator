@@ -26,6 +26,9 @@ https://user-images.githubusercontent.com/100029887/220200044-7c878f2a-431a-4431
 You can watch the video here:
 
 
+Appliction screenshot:
+
+![screenshot](./assets/screenshot.jpg)
 
 ## Constributing
   Antonio Algaba Osuna
@@ -35,9 +38,7 @@ You can watch the video here:
 
 ## Questions
 
-Email me or reach out on GitHub:
-
-- Email: someemail@gmail.com
+Reach out on GitHub:
 
 - Github: [@AntonioAlgaba](https://github.com/AntonioAlgaba)
   
