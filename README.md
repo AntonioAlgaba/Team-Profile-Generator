@@ -20,12 +20,14 @@ When you run node index.js, the application uses the inquirer package to prompt 
 The application will start by running `node index.js`
 
 
-https://user-images.githubusercontent.com/100029887/220200044-7c878f2a-431a-4431-a374-d859302264c0.mp4
 
 
 You can watch the video here:
 
 
+Appliction screenshot:
+
+![screenshot](./assets/screenshot.jpg)
 
 ## Constributing
   Antonio Algaba Osuna
@@ -35,9 +37,7 @@ You can watch the video here:
 
 ## Questions
 
-Email me or reach out on GitHub:
-
-- Email: someemail@gmail.com
+Reach out on GitHub:
 
 - Github: [@AntonioAlgaba](https://github.com/AntonioAlgaba)
   
