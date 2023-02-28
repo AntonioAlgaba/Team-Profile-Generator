@@ -19,10 +19,13 @@ When you run node index.js, the application uses the inquirer package to prompt 
 
 The application will start by running `node index.js`
 
+![Walkthrough Video](./assets/Walkthrough Video.webm)
 
 
 
 You can watch the video here:
+
+https://watch.screencastify.com/v/5FxyfDPOBbZLuZi0JrxK
 
 
 Appliction screenshot:
