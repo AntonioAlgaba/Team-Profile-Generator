@@ -19,7 +19,7 @@ When you run node index.js, the application uses the inquirer package to prompt 
 
 The application will start by running `node index.js`
 
-![Walkthrough Video](./assets/Walkthrough Video.webm)
+![WalkthroughVideo](./assets/Walkthrough Video.webm)
 
 
 
