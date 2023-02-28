@@ -11,7 +11,7 @@ Worrking Node.js command-line application that takes in information about employ
 
   
 ## Installation
-  npm install inquirer is required.
+  npm install inquirer and jest are required.
 
 ## Usage
 When you run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions. First, you have to write information about the manager and then you can choose more emplyees as ingeneer or intern, or just stop building the team.
